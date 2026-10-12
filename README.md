@@ -1,42 +1,45 @@
-# 🎯 1st PROJECTS
+# 노른자추적 · 상권 위험 분석과 창업 추천
 
-> KDT AI-X 1차 프로젝트(ctrl+shift+v)
+상권 폐업 위험 예측과 창업 업종 추천을 주제로 진행한 KDT AI-X 1차 팀 프로젝트입니다.
 
-## 📌 프로젝트 개요
+| 항목 | 내용 |
+| --- | --- |
+| 개발 기간 | 2026.09.28 ~ 2026.10.11 |
+| 개발 인원 | 3명 |
+| 프로젝트 형태 | 팀 프로젝트 / 개인 보관 및 후속 개발 저장소 |
+| 주요 자료 | 데이터 전처리·모델링 노트북, XGBoost 모델, 웹 구현 자료, 발표자료 |
 
-- **프로젝트명**: 노른자추적(상권 위험분석과 창업추천)
-- **개발 기간**: 2026.09.28 ~ 2026.10.11 (2주)
-- **개발 인원**: 3명
-- **주요 기술**: 
-   <div>
-     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-     <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
-     <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
-     <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white">
-     <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white">
-   </div>
-   <div>
-     <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
-     <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
-     <img src="https://img.shields.io/badge/LightGBM-02569B?style=for-the-badge&logoColor=white">
-     <img src="https://img.shields.io/badge/CatBoost-FFCC00?style=for-the-badge&logoColor=black">
-     <img src="https://img.shields.io/badge/XGBoost-EB5424?style=for-the-badge&logoColor=white">
-   </div>
-   <div>
-     <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white">
-     <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
-     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-   </div>
+이 저장소는 팀의 공동 결과물과 기존 커밋 이력을 보존합니다. 모든 구현을 개인 단독 성과로 주장하지 않으며, 세부 담당 역할과 개인 개선 사항은 확인된 작업 내용을 기준으로 기록합니다.
 
-## 📑 목차
-[1. 프로젝트 소개](https://github.com/ai-mbc/1stProject#project-overview-1)<br>
-[2. 데이터 수집 및 분석](https://github.com/ai-mbc/1stProject#data-preprocessing-1)<br>
-[3. 모델개발 및 성능평가](https://github.com/ai-mbc/1stProject#model-development--performance-evaluation-1)<br>
-[4. 웹 서비스 구현(url)](https://github.com/ai-mbc/1stProject#web-service-implementation-1)<br>
-[5. 프로젝트 결과(url)](https://github.com/ai-mbc/1stProject#project-results)<br>
-[6. 시연영상(url)](https://github.com/ai-mbc/1stProject#-demo-video-1)<br>
+[포트폴리오 홈페이지](https://ai-mbc.github.io/) · [GitHub 프로필](https://github.com/ai-mbc) · [학습 기록](https://github.com/ai-mbc/ai)
+
+## 목차
+
+- [프로젝트 소개](#project-overview)
+- [데이터 전처리](#data-preprocessing)
+- [모델 개발과 성능 평가](#model-development--performance-evaluation)
+- [웹 구현](#web-service-implementation)
+- [기여 및 결과](#project-contribution--results)
+- [시연 영상](#-demo-video)
+- [코드와 자료 안내](#코드와-자료-안내)
+
+## 코드와 자료 안내
+
+| 자료 | 위치 |
+| --- | --- |
+| 전처리 노트북 | [예측모델_데이터 전처리 및 변수 처리_26.09.30.ipynb](<예측모델_데이터 전처리 및 변수 처리_26.09.30.ipynb>) |
+| 모델링 노트북 | [예측모델_모델링_26.10.01.ipynb](예측모델_모델링_26.10.01.ipynb) |
+| 웹페이지 노트북 | [예측모델_웹페이지 생성_26.10.06.ipynb](예측모델_웹페이지 생성_26.10.06.ipynb) |
+| 학습 모델 | [05_model](05_model/) |
+| 웹 구현·배포 자료 | [vercel및html깃배포](vercel및html깃배포/) |
+| 발표 슬라이드 | [발표 PDF](vercel및html깃배포/slides/assets/slides.pdf) |
+| 패키지 목록 | [requirements.txt](requirements.txt) |
+
+노트북은 전처리 → 모델링 → 웹페이지 순서로 살펴볼 수 있습니다. 실행에는 별도의 Python 환경과 노트북에 지정된 데이터·경로 확인이 필요합니다. 원본 데이터 등 Git에서 제외된 자료는 저장소에 포함되지 않을 수 있습니다.
+
+평가 수치와 실행 결과는 아래 발표자료 및 노트북을 참고하세요. 재현 가능한 데이터 준비 절차와 개인 담당 역할은 추가 정리할 항목입니다.
+
+---
 
 ## Project-overview
 
@@ -73,82 +76,4 @@
 ## 🎬 Demo Video
 
 [![Video Title](https://github.com/user-attachments/assets/1d45a916-4b14-454a-90de-628a4812cb51)](https://youtu.be/yPtS84VCDPQ)
-*클릭하면 데모 영상을 볼 수 있습니다*
-
-
-
-## 📌 프로젝트 개요
-
-- **프로젝트명**: 상권 분석과 창업(상권 폐업위기 예측과 창업 업종 추천)
-- **개발 기간**: 2026.09.28 ~ 2026.10.11 (2주)
-- **개발 인원**: 3명
-- **주요 기술**:  
-   <div>
-     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-     <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
-     <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
-     <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white">
-     <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white">
-   </div>
-   <div>
-     <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
-     <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
-     <img src="https://img.shields.io/badge/LightGBM-02569B?style=for-the-badge&logoColor=white">
-     <img src="https://img.shields.io/badge/CatBoost-FFCC00?style=for-the-badge&logoColor=black">
-     <img src="https://img.shields.io/badge/XGBoost-EB5424?style=for-the-badge&logoColor=white">
-   </div>
-   <div>
-     <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white">
-     <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
-     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-   </div>
-
-## 📑 목차
-[1. 프로젝트 소개](url)<br>
-[2. 데이터 수집 및 분석](url)<br>
-[3. 모델 개발 및 성능평가](url)<br>
-[4. 웹 서비스 구현](url)<br>
-[5. 프로젝트 결과](url)<br>
-
-
-## Project-overview
-<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/abe0dd11-8ba9-4fae-bc99-1e4ee96dce31" />
-
-<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/f82768f3-1f0a-4e30-947f-cd9f5dec30d8" />
-
-## Data Preprocessing
-
-<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/c954a53f-e2d9-41d3-85c5-d0a1948256bd" />
-
-<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/4f21ed77-060a-47a5-9bc7-1a3bc77bfe70" />
-
-<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/2b5c715b-65e3-4bea-98a6-b8235e886eb7" />
-
-
-## Model Development & Performance Evaluation
-
-<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/6c4e33ec-4053-4338-a162-d99303fed982" />
-
-<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/a6179ce2-f2e0-4a83-a11d-0c0895334969" />
-
-<img width="600" height="400" src="https://github.com/user-attachments/assets/ad2e5211-a948-429b-b996-c55afafffa4f" />
-
-<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/a6edcc46-a9b9-484a-9c25-c035b83da635" />
-
-## Web Service Implementation
-
-<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/6a396261-0de5-4b61-ab2d-73d4f218c8ee" />
-
-<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/e320ff2d-0243-4677-aa73-4ad2256ff181" />
-
-## Project Results
-
-<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/e107d4c3-6b34-49bc-ba8d-9fcf84d7429f" />
-
-
-## 🎬 Demo Video
-<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/e39eb5b8-c268-43ad-b669-158cfc8e81a6" />
-[![Video Title](https://github.com/user-attachments/assets/1d45a916-4b14-454a-90de-628a4812cb51)](https://youtu.be/yPtS84VCDPQ)<br>
 *클릭하면 데모 영상을 볼 수 있습니다*
