@@ -4,5 +4,13 @@ etc/
 .env
 M1_웹페이지/
 07_web/
+<<<<<<< HEAD
+.vs/
+IDE/
+.venv/
+.vercel/
+__pycache__/
+=======
 .vercel/
 vercel
+>>>>>>> 2ddc319a6f410d831f1ef582c417c910c069c6a5
