@@ -31,12 +31,12 @@
    </div>
 
 ## 📑 목차
-[1. 프로젝트 소개](https://github.com/jack8704/1stProjectTeam2#project-overview-1)<br>
-[2. 데이터 수집 및 분석](https://github.com/jack8704/1stProjectTeam2#data-preprocessing-1)<br>
-[3. 모델개발 및 성능평가](https://github.com/jack8704/1stProjectTeam2#model-development--performance-evaluation-1)<br>
-[4. 웹 서비스 구현(url)](https://github.com/jack8704/1stProjectTeam2#web-service-implementation-1)<br>
-[5. 프로젝트 결과(url)](https://github.com/jack8704/1stProjectTeam2#project-results)<br>
-[6. 시연영상(url)](https://github.com/jack8704/1stProjectTeam2#-demo-video-1)<br>
+[1. 프로젝트 소개](https://github.com/ai-mbc/1stProject#project-overview-1)<br>
+[2. 데이터 수집 및 분석](https://github.com/ai-mbc/1stProject#data-preprocessing-1)<br>
+[3. 모델개발 및 성능평가](https://github.com/ai-mbc/1stProject#model-development--performance-evaluation-1)<br>
+[4. 웹 서비스 구현(url)](https://github.com/ai-mbc/1stProject#web-service-implementation-1)<br>
+[5. 프로젝트 결과(url)](https://github.com/ai-mbc/1stProject#project-results)<br>
+[6. 시연영상(url)](https://github.com/ai-mbc/1stProject#-demo-video-1)<br>
 
 ## Project-overview
 
