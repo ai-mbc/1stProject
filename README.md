@@ -13,6 +13,12 @@
 
 [포트폴리오 홈페이지](https://ai-mbc.github.io/) · [GitHub 프로필](https://github.com/ai-mbc) · [학습 기록](https://github.com/ai-mbc/ai)
 
+## 교육 배경
+
+(KDT) 기업맞춤형 AI+X 융복합 인재 양성 교육 · 2026.06.22 ~ 2026.11.20 · 824시간(20.6주), 교육 진행 중.
+
+[교육과정과 과목별 일정 보기](https://ai-mbc.github.io/#education) · [교육과정별 학습 기록](https://github.com/ai-mbc/ai)
+
 ## 목차
 
 - [프로젝트 소개](#project-overview)
